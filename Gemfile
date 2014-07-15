@@ -9,15 +9,18 @@ group :production do
   gem 'pg'
 end
 
+
 group :development do
   gem 'sqlite3'
 end
 
 gem 'redis', '3.1.0'
+gem 'redis-namespace'
 
 gem 'sidekiq', '~> 3.2.1'
 
 gem 'unicorn'
+gem 'unicorn-rails'
 gem "newrelic_rpm"
 
 # Gems used only for assets and not required
