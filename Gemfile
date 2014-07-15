@@ -13,6 +13,9 @@ group :development do
   gem 'sqlite3'
 end
 
+gem 'redis', '3.1.0'
+
+gem 'sidekiq', '~> 3.2.1'
 
 gem 'unicorn'
 gem "newrelic_rpm"
